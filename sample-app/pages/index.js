@@ -19,6 +19,11 @@ export default function Home() {
         </Link>
         </h1>
 
+        <h2 className={styles.description}>こちらがresus-api<Link href="/posts">クリック</Link>
+        </h2>
+        <h3 className={styles.description}>api<Link href="/api/hello">クリック</Link>
+        </h3>
+
         <p className={styles.description}>
           Get started by editing{' '}
           <code className={styles.code}>pages/index.js</code>
